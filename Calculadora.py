@@ -3,5 +3,4 @@ class Calculadora:
         return a + b
 
     def subtract(self, a, b):
-        # Cambio intencional para provocar fallo en las pruebas
-        return a - b + 1
+        return a - b
